@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.header {
+    width: 100%;
+    background-image: linear-gradient(60deg, red, orange);
+    text-align: center;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555;
+    font-size: 16px;
+}
+
+h1 {
+    color: #fff;
+}
+
+.footer {
+    background-color: #e5e5e5;
+    padding: 0.5em;
+    text-align: center;
+}
+
+
+/*Main section*/
+
+.main {
+    display: flex;
+}
+
+.navigation,
+.section,
+.news {
+    padding: 0.5em;
+}
+
+.navigation {
+    width: 20%;
+}
+
+.section {
+    width: 60%;
+    font-size: 1.25em;
+    flex-grow: 3;
+    flex-shrink: 1;
+}
+
+.news {
+    width: 20%;
+}
+
+.section>.units-list {
+    line-height: 1.75em;
+}
+
+.css-units {
+    color: #8b0000;
+    background-color: #e5e5e5;
+    font-size: 1.125em;
+    font-weight: 700;
+}
+
+.section__header {
+    font-size: 5vw;
+    text-align: center;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    color: white;
+}
+
+.nav-list>.nav-list-item {
+    background-color: #808080;
+    color: white;
+    line-height: 2em;
+    margin-bottom: 0.5em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.nav-list-item>.nav-list-link {
+    margin-left: 0.5em;
+    max-width: 100%;
+    text-decoration: none;
+}
