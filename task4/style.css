@@ -89,10 +89,9 @@ h1 {
     text-overflow: ellipsis;
 }
 
-.nav-list-link a {
+.nav-list-link {
     color: white;
     margin-left: 0.5em;
-    max-width: 100%;
     text-decoration: none;
     display: block;
 }
