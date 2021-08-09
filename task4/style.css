@@ -78,15 +78,16 @@ h1 {
     list-style: none;
     color: white;
     padding: 0;
+    display: flexbox;
 }
 
 .nav-list-item {
     background-color: #808080;
     line-height: 2em;
     margin-bottom: 0.5em;
-    overflow: hidden;
+    /* overflow: hidden;
     white-space: nowrap;
-    text-overflow: ellipsis;
+    text-overflow: ellipsis; */
     padding: 0;
 }
 
@@ -95,6 +96,9 @@ h1 {
     margin: 0 0.5em;
     text-decoration: none;
     display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 
