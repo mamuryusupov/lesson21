@@ -76,8 +76,8 @@ h1 {
 
 .nav-list {
     list-style: none;
-    padding: 0;
     color: white;
+    padding: 0;
 }
 
 .nav-list-item {
@@ -92,12 +92,9 @@ h1 {
 
 .nav-list-link {
     color: white;
-    margin-left: 0 0.5em;
+    margin: 0 0.5em;
     text-decoration: none;
     display: block;
-    /* overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis; */
 }
 
 
