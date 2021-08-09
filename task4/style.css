@@ -80,7 +80,7 @@ h1 {
     color: white;
 }
 
-.nav-list>.nav-list-item {
+.nav-list-item {
     background-color: #808080;
     line-height: 2em;
     margin-bottom: 0.5em;
@@ -89,9 +89,16 @@ h1 {
     text-overflow: ellipsis;
 }
 
-.nav-list-link {
+.nav-list-item>.nav-list-link {
     color: white;
     margin-left: 0.5em;
     text-decoration: none;
-    display: block;
+    /* overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; */
 }
+
+
+/* .nav-list-item a {
+    display: block;
+} */
