@@ -87,12 +87,14 @@ h1 {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+    padding: 0;
 }
 
-.nav-list-item>.nav-list-link {
+.nav-list-link {
     color: white;
-    margin-left: 0.5em;
+    margin-left: 0 0.5em;
     text-decoration: none;
+    display: block;
     /* overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis; */
